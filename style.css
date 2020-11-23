@@ -3,9 +3,9 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color:#3b83bd;  
     
-    color: #303030;
+    color: #000000;
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -23,7 +23,7 @@ article {
 
 
 header {
-    color: skyblue;
+    color:#90ee90;
     text-align: center;
 }
 
@@ -70,7 +70,7 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color:#90ee90;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -84,6 +84,8 @@ nav li a.active {
     background-color: skyblue;
 }
 
-
+img {
+    width: 50%;
+}
 
 
