@@ -6,7 +6,7 @@ html, body {
     background-color:#3b83bd;  
     
     color: #000000;
-    font: Verdana, Arial, Sans-Serif;
+    font: Arial;
 }
 
 
@@ -19,6 +19,7 @@ main {
 
 article {
     text-align: justify;
+    font-size: 1.2em;
 }
 
 
@@ -36,13 +37,13 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
-    float: left;
+img.zweefRechts {
+    float: right;
     margin-right: 15px;
 }
 
 .smalltext {
-    font-size: 0.7em;
+    font-size: 1.0em;
 }
 
 a {
@@ -85,7 +86,7 @@ nav li a.active {
 }
 
 img {
-    width: 50%;
+    width: 30%;
 }
 
 
