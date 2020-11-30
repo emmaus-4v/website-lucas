@@ -3,10 +3,10 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color:#3b83bd;  
+    background-color:#1CB53B;  
     
     color: #000000;
-    font: Arial;
+    font-family: Arial;
 }
 
 
@@ -18,13 +18,13 @@ main {
 
 
 article {
-    text-align: justify;
+    text-align: left;
     font-size: 1.2em;
 }
 
 
 header {
-    color:#90ee90;
+    color:#000000;
     text-align: center;
 }
 
@@ -32,6 +32,7 @@ header {
 footer {
     text-align: center;
     padding-bottom: 10px;
+    clear: both;
 }
 
 
@@ -47,7 +48,7 @@ img.zweefRechts {
 }
 
 a {
-    color: skyblue;
+    color: #073E21;
     text-decoration: none;
 }
 
@@ -61,7 +62,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #000000;
     overflow: hidden;
 }
 
@@ -71,22 +72,26 @@ nav ul li {
 
 nav li a {
     display: block;
-    color:#90ee90;
+    color:#1CB53B;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 14px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #3b8f27;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(69, 255, 106);
 }
 
 img {
-    width: 30%;
+    width: 25%;
 }
 
 
+article p {
+    float: left;
+    width: 67%;
+}
