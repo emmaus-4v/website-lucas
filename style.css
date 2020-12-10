@@ -20,7 +20,7 @@ main {
 
 
 article {
-    text-align: right;
+    text-align: left;
     font-size: 1.2em;
 }
 
@@ -37,7 +37,7 @@ footer {
     text-align: center;
     padding-bottom: 10px;
     clear: both;
-    color: aliceblue
+    color: blue;
 }
 
 
@@ -45,11 +45,12 @@ footer {
 
 img.zweefLinks {
     float: left;
-    margin-left: 0px;
+    margin-left: 10 px;
 }
 
 .smalltext {
     font-size: 1.0em;
+    color: blue;
 }
 
 a {
